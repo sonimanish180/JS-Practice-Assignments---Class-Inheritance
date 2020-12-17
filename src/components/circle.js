@@ -1,12 +1,11 @@
 // import using require
 // import { Shape } from "./shape";
-const Shape = require("./Shape.js");
+const Shape = require("./shape.js");
 
 // declare class
 class Circle extends Shape {
   constructor() {
     super();
-    this.color = "blue";
   }
   calculateArea = function () {
     console.log("Area");
